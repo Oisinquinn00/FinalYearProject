@@ -35,11 +35,11 @@ def load_and_prep_data():
 
     # 2. Load Weather Data
     weather_files = {
-        'Aberporth': 'Data/cleaned_data/Aberporth_cleaned.csv',
-        'Armagh': 'Data/cleaned_data/Armagh_cleaned.csv',
-        'Chivenor': 'Data/cleaned_data/Chivenor_cleaned.csv',
-        'Manston': 'Data/cleaned_data/Manston_cleaned.csv',
-        'Wick Airport': 'Data/cleaned_data/Wick-Airport_cleaned.csv'
+        'Aberporth': 'cleaned_data/Data/cleaned_data/Aberporth_cleaned.csv',
+        'Armagh': 'cleaned_data/Data/cleaned_data/Armagh_cleaned.csv',
+        'Chivenor': 'cleaned_data/Data/cleaned_data/Chivenor_cleaned.csv',
+        'Manston': 'cleaned_data/Data/cleaned_data/Manston_cleaned.csv',
+        'Wick Airport': 'cleaned_data/Data/cleaned_data/Wick-Airport_cleaned.csv'
     }
     
     weather_data = {}
