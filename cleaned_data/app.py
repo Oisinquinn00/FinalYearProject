@@ -20,7 +20,7 @@ Select a location to simulate how local weather conditions (if they were represe
 @st.cache_data
 def load_and_prep_data():
     # 1. Load Electricity Data
-    elec_path = 'Electric_data/Electricity_values_cleaned (1).csv'
+    elec_path = 'Electricity_values_cleaned (3).csv'
     try:
         df_elec = pd.read_csv(elec_path)
         # Select relevant columns
